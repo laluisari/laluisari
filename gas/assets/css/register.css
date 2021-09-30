@@ -1,0 +1,29 @@
+#form{ min-height: 700px; }
+
+
+.card{
+	height: 600px; width: 41%;
+	border: 2px solid #482f43;
+	margin-top: 20px;
+}
+#cardHeader{
+	background-color: #112 ;
+	height: 70px;
+	border: 2px white solid ; color: white;
+}
+.inputS{
+	 margin-top: 10px; float: left; width: 90%;
+	 margin-left: 20px;
+}
+.inputS input{ 
+	width: 100%; margin-top: 5px; height: 30px;
+	border-radius: 5px;
+}
+.inputS select{ width: 100%; margin-top: 5px; height: 30px;
+	border-radius: 5px;
+}
+.kirim{ margin-top: 20px; width: 70%; height: 30px; 
+	background-color: #112 ; border-radius: 5px;
+	color: white;
+}
+.kirim:hover{ background-color: #2b1c28; }

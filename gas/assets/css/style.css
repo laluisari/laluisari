@@ -1,0 +1,96 @@
+.container{
+	height: 100vh;
+	background-color: white;
+}
+body{margin: 0;}
+/*navbar */
+.navbar{font-size: 20px; }
+.navbar ul {
+	list-style-type: none;
+	padding: 0; margin: 0;
+	overflow: hidden; background-color: #333;
+}
+.navbar li a{ 
+	text-decoration: none;
+	color: white; display: block;
+	text-align: center; padding: 14px 16px;
+ }
+.navbar li:hover:not(#home){ background-color: #111; }
+ .navbar li{ float: left; }
+ .navbar li:last-child{ border-right:none; }
+#home{ background-color: #4caf50; }
+
+.header{ margin-left: 5%; padding: 20px 22px;  margin-bottom: 30px;}
+.header #logo { float: right;  margin-right: 5%; height: 120px; width: 100px; }
+
+ #garis{ height: 4px; background-color: orange; margin-top: 4%; margin-bottom: 0px;}
+
+/* jumbotron  */
+
+ .jumbotron{
+ 	justify-content: center;height: 500px;
+ 	background-image: url("../media/img/c.jpg");
+ 	background-attachment: fixed; background-size: cover;
+ 	background-position: 0 -180px; color: red;
+ 	overflow: hidden; text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+ }
+ .jumbotron img{ width: 250px; height:250px; border: 5px solid #666; margin-top: 20px;}
+
+ /*Tentang */
+
+ section{min-height: 500px; padding: 5px; font-size: 20px;}
+ #tentang hr{ width: 30%; height: 3px; background-color: #111;}
+
+.coretan { display: inline-block; width: 40%; padding-right: 10px; }
+.coretan p:hover{
+	text-shadow:  1px 1px 10px rgba(0,0,0,0.5) ;
+	cursor: pointer;
+}
+
+/* gallery  */
+
+
+
+#gallery{ background-color: #112; width: 90%; color: white; min-height: 750px;}
+#banner { width: 34vw; height: 200px;  margin-bottom: 30px;}
+
+.bungkus{width: 60vw ; height: auto;}
+.foto{display: inline-block;}
+.foto img{ 
+	width: 300px; height: 170px; margin-right: 10px;
+	border: 1px solid #111;
+}
+.foto img:hover{ cursor: pointer; box-shadow: 0px 2px 4px 0px white;}
+
+/*profil*/
+#profil{width: 90%; min-height: 700px; padding: 5px; font-size: 20px; background-color: #c5ae97; color: whitesmoke;}
+#profil hr{ width: 30%; height: 3px; background-color: white;}
+#tes{ width: 60vw;  margin-top: 10px; height: 70vh;}
+
+
+/*card */
+
+.card { width:60vw;  height: auto; margin-bottom: 20px;}
+
+#myRange{ margin-top: 20px;  }
+@keyframes spin{ 100% { transform: rotate(360deg) } }
+
+#Bdaftar{ background-color: #111; width: 30%; height: 35px; color: white;}
+#Adaftar a{  text-decoration: none;}
+#Adaftar button:hover{ cursor: pointer; }
+
+
+/*footer*/
+
+footer{
+	height: auto;
+	margin-top: 20px; overflow: hidden; background-color: #111 ;
+	padding: 20px; color: white; margin-bottom: 20px;
+}
+#notesFooter{
+	width: 25%; height: auto; display: inline-block;
+	padding-right: 20px;
+}
+#notesFooter a{ color: whitesmoke; }
+
+#headText { font-size: 20px; }

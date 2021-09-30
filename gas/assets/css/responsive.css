@@ -1,0 +1,62 @@
+@media screen and (max-width: 680px){
+/*navbar*/
+
+.navbar{font-size: 4vw; }
+.header{ margin-left: 5%; padding: 20px 22px;  margin-bottom: 30px; font-size: 3vw;}
+.header #logo { float: right;  margin-right: 4%; height: 14vh; width: 22vw;}
+ #garis{ height: 4px; background-color: orange; margin-top: 4%; }
+
+#up {visibility: hidden; }
+
+
+/*jumbotron*/
+ .jumbotron img{ width: 35vw; height:30vh; border: 5px solid #666; margin-top: 20px;}
+ section{ font-size: 4vw;}
+
+
+
+
+.coretan { display: inline-block; width: 40%; padding-right: 10px; }
+.coretan p:hover{
+    text-shadow:  1px 1px 10px rgba(0,0,0,0.5) ;
+    cursor: pointer;
+}
+/*gallery*/
+
+.jumbotron{ font-size: 4vw; }
+.jumbotron{ height: 60vh ; }
+
+.foto img{ width: 60vw; }
+#banner { width: 60vw; }
+
+
+
+#profil{ min-height: 500px; font-size: 3vw; padding: 2px;}
+
+#tes{ width: 80vw;  margin-top: 20px; height: 70vw; }
+
+
+/*bola*/
+.card{ font-size: 3.5vw;  }
+.card input{ width: 20vw; }
+#image { width: 25vw; height: 25vw; }
+
+
+/*footer*/
+
+footer{
+    height: auto;
+    margin-top: 20px; overflow: hidden; background-color: #111 ;
+    padding: 20px; color: white; margin-bottom: 20px; 
+}
+#notesFooter{
+    width: 25%; height: auto; display: inline-block;
+    padding-right: 20px;
+}
+#notesFooter a{ color: whitesmoke; }
+
+#headText { font-size: 20px; }
+
+#bio { font-size: 3.2vw; }
+
+}
